@@ -12,6 +12,7 @@ class Trash{
     display(){
         var pos = this.body.position;
         strokeWeight(10);
+        stroke(random(255), random(255), random(255));
         fill(backgroundcolor);
         rect(pos.x, pos.y, this.width, this.height);
     }
